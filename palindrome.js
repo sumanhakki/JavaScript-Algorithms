@@ -3,6 +3,7 @@ function isPalindrome(str) {
     let forwrdStr = str.toLowerCase().replace(/[\W_]/g, '');
     let reverseStr = forwrdStr.split('').reverse().join('');
     return forwrdStr === reverseStr
+
 }
 
 
